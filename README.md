@@ -40,7 +40,7 @@ Next, I set up a data connector, which I would use to pull event logs from my VM
 
 <img width="800" alt="Screenshot 2025-01-17 at 6 59 24 PM" src="https://github.com/user-attachments/assets/91966c67-2a29-4278-a0a6-94b951dfb5d9" />
 
-Next, I created a query rule using KQL to check our event logs for successful sign-ins via RDP to our VM. This way, if our VM is attacked via RDP, we will be alerted on our SIEM. I set this to query every 5 minutes so we are always updated. I also added some other built-in rules.
+Next, I created a query rule using KQL to check our event logs for successful sign-ins via RDP to my VM. This way, if the VM is attacked via RDP, we will be alerted on our SIEM. I set this to query every 5 minutes so we are always updated. I also added some other built-in rules.
 
 *Ref 4: Query Rule*
 
